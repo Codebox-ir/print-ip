@@ -7,7 +7,7 @@ Notice: x-Forward not covered.
 
 ## Installation
 
-This project available with composer:4
+This project available with composer:
 ```
 $ composer require milad-abooali/print-ip
 ```
