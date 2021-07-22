@@ -1,5 +1,7 @@
 <?php
 
+namespace printIP;
+
 /**
  * Get IP
  */ 
