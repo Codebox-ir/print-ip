@@ -1,32 +1,33 @@
 # print-ip
 
 
-Return IPv4 or IPv6 for using in shel scripts, web scripts and even server-side scripts to get th IP.
+Return IPv4 or IPv6 for using in shell scripts, web scripts and even server-side scripts to get the IP.
 
 Notice: x-Forward not covered.
 
 ## Installation
-This project using composer.
+
+This project available with composer:4
 ```
 $ composer require milad-abooali/print-ip
 ```
 
 # Usage
 
-Onlien Example:
+Online example:
 https://ip.codebox.ir
 
-
+Auto detect main IP version:
 ```
 $  curl -L ip.codebox.ir
 ```
 
-IP version selector:
-
+Selector for IPv6, return null on IPv4:
 ```
 $  curl -L ip.codebox.ir?v=6
 ```
 
+Selector for IPv4, return null on IPv6:
 ```
 $  curl -L ip.codebox.ir?v=4
 ```
