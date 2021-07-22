@@ -1,0 +1,32 @@
+{
+  "name": "milad-abooali/print-ip",
+  "description": "Return IPv4 or IPv6 for using in shel scripts, web scripts and even server-side scripts to get th IP.",
+  "type": "library",
+  "require": {
+    "php": ">=7.0.3"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Milad Abooali",
+      "email": "m.abooali@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "printIP\\": "src"
+    },
+    "files": [
+      "src/printIP.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "printIP\\printIP"
+      ]
+    }
+  }
+}
