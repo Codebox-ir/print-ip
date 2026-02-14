@@ -19,7 +19,7 @@
       "printIP\\": "src"
     },
     "files": [
-      "src/printIP.php"
+      "src/PHP/printIP.php"
     ]
   },
   "extra": {
